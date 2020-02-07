@@ -12,8 +12,8 @@ class App extends Component {
         </div>
         <hr />
 
-        {/* <QuoteForm />
-        <Quotes /> */}
+        <QuoteForm />
+        {/* <Quotes /> */}
       </div>
     );
   }
