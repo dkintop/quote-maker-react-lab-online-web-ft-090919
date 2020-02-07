@@ -3,12 +3,7 @@
 export const addQuote = quote => {
   return {
     type: "ADD_QUOTE",
-    quote: {
-      content: quote.content,
-      author: quote.author,
-      votes: quote.votes,
-      id: uuid()
-    }
+    quote: Object.assign({}, quote, { votes: 0 })
   };
 };
 
